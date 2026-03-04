@@ -14,7 +14,7 @@
 
 Name:           pam_okta
 Version:        0.1.0
-Release:        0.20260303git%{shortcommit}%{?dist}
+Release:        0.20260304git%{shortcommit}%{?dist}
 Summary:        PAM module for Okta authentication
 
 License:        ISC
