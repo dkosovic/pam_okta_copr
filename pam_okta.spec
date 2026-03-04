@@ -1,6 +1,9 @@
 %global commit 5da160dd89a8fe41341fe9e5e0dc937b383703f4
 %global shortcommit %(echo %{commit} | cut -c1-7)
-%global debug_package %{nil}
+
+# Disable debugsource package (source file tracking issues with meson)
+# but keep debuginfo (actual debug symbols)
+%undefine _debugsource_packages
 
 # RHEL 8 does not support sysusers for RPM-managed user creation
 %if 0%{?rhel} == 8
