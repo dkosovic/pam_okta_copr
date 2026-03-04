@@ -1,0 +1,2 @@
+g _pam_oktad - -
+u _pam_oktad - - /usr/sbin/nologin
