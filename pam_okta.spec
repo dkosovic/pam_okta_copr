@@ -1,8 +1,6 @@
 %global commit 5da160dd89a8fe41341fe9e5e0dc937b383703f4
 %global shortcommit %(echo %{commit} | cut -c1-7)
-
-%global _debugsource_template %{nil}
-%global _empty_manifest_terminate_build 0
+%global debug_package %{nil}
 
 # RHEL 8 does not support sysusers for RPM-managed user creation
 %if 0%{?rhel} == 8
