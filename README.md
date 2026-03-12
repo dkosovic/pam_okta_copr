@@ -43,6 +43,7 @@ jansson-devel
 libbsd-devel
 libcurl-devel
 libjwt-devel
+openssl-devel
 systemd-units
 ```
 
