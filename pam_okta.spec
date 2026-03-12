@@ -1,4 +1,4 @@
-%global commit 5da160dd89a8fe41341fe9e5e0dc937b383703f4
+%global commit 019267cb494ad2e8cc5b54d4a38fe169886831b1 
 %global shortcommit %(echo %{commit} | cut -c1-7)
 
 %if 0%{?rhel} == 8
@@ -16,7 +16,7 @@
 
 Name:           pam_okta
 Version:        0.1.0
-Release:        0.20260304git%{shortcommit}%{?dist}
+Release:        0.20260312git%{shortcommit}%{?dist}
 Summary:        PAM module for Okta authentication
 
 License:        ISC
@@ -96,6 +96,6 @@ getent passwd _pam_oktad >/dev/null || \
 %endif
 
 %changelog
-* Wed Mar 04 2026 Douglas Kosovic <doug@uq.edu.au> - 0.1.0-0.20260304git5da160d
-- Build from Git commit 5da160dd89a8fe41341fe9e5e0dc937b383703f4
+* Thu Mar 12 2026 Douglas Kosovic <doug@uq.edu.au> - 0.1.0-0.20260312git019267c
+- Build from Git commit 019267cb494ad2e8cc5b54d4a38fe169886831b1
 
