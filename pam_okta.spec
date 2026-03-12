@@ -33,6 +33,7 @@ BuildRequires:  jansson-devel
 BuildRequires:  libbsd-devel
 BuildRequires:  libcurl-devel
 BuildRequires:  libjwt-devel
+BuildRequires:  openssl-devel
 BuildRequires:  systemd-units
 
 Requires:       pam
